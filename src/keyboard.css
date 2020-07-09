@@ -1,6 +1,12 @@
 h1 {
-  color: rgb(90, 7, 158);
+  color: #5a079e;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 2px;
 }
 .keyboard {
   position: fixed;
@@ -12,9 +18,7 @@ h1 {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   user-select: none;
   transition: bottom 0.4s;
-  height: 100px;
 }
-
 .keyboard--hidden {
   bottom: -100%;
 }
