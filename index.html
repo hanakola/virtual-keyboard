@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=S, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Virtual keyboard</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -12,33 +12,17 @@
   </head>
   <body>
     <h1>Virtual Keyboard</h1>
+    <h3>Start typing here:</h3>
     <textarea
-      style="position: absolute; top: 130px; left: 100px; width: 300px;"
+      class="use-keyboard-input"
+      style="
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: 100px;
+      "
     ></textarea>
-
-    <!-- <div class="keyboard">
-      <div class="keyboard__keys">
-        <button type="button" class="keyboard__key">a</button>
-        <button type="button" class="keyboard__key keyboard__key--wide">
-          <i class="material-icons">backspace</i>
-        </button>
-        <button type="button" class="keyboard__key keyboard__key--extra-wide">
-          <i class="material-icons">space_bar</i>
-        </button>
-        <button
-          type="button"
-          class="keyboard__key keyboard__key--wide keyboard__key--activatable"
-        >
-          <i class="material-icons">keyboard_capslock</i>
-        </button>
-        <button
-          type="button"
-          class="keyboard__key keyboard__key--wide keyboard__key--dark"
-        >
-          <i class="material-icons">check_circle</i>
-        </button>
-      </div>
-    </div> -->
 
     <script src="src/keyboard.js"></script>
   </body>
